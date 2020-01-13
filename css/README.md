@@ -13,8 +13,6 @@ mkdir sass
   },
 ```
 
-````
-
 ## node のインストール
 
 以下参照
@@ -26,7 +24,7 @@ mkdir sass
 
 ```bash
 yarn global add node-sass
-````
+```
 
 ## プロジェクトディレクトリの作成
 

@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: content-box;
+  box-sizing: content-box; //レイアイとしやすくするためのおまじない（詳細割愛）
 }
 
 html {
@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  width: 80vw; // bodyの表示領域を80%に指定
+  width: 80vw; // bodyの表示領域幅を80%に指定
   margin: 0 auto; // 上下にはmarginなし、左右には均等margin
 }
 
@@ -18,14 +18,14 @@ body {
   flex-direction: row; // 行（左右）方向に配置
   align-items: flex-end; // 下揃え
 
+  // .header--logo
   &--logo {
-    // => .header--logo
     font-size: 8rem; // = 36px
     margin-right: auto; // 右にあまりのスペースを配置
   }
 
+  // .header--item
   &--item {
-    // => .header--item
     font-size: 2.4rem;
     margin: 0 2rem;
   }
