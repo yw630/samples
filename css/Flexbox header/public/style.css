@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  width: 80vw;
+  margin: 0 auto; }
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end; }
+  .header--logo {
+    font-size: 8rem;
+    margin-right: auto; }
+  .header--item {
+    font-size: 2.4rem;
+    margin: 0 2rem; }

@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+html {
+  font-size: 62.5%; // 16px => 10px
+}
+
+body {
+  width: 80vw; // bodyの表示領域を80%に指定
+  margin: 0 auto; // 上下にはmarginなし、左右には均等margin
+}
+
+.header {
+  display: flex;
+  flex-direction: row; // 行（左右）方向に配置
+  align-items: flex-end; // 下揃え
+
+  &--logo {
+    // => .header--logo
+    font-size: 8rem; // = 36px
+    margin-right: auto; // 右にあまりのスペースを配置
+  }
+
+  &--item {
+    // => .header--item
+    font-size: 2.4rem;
+    margin: 0 2rem;
+  }
+}

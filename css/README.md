@@ -1,6 +1,19 @@
-# Sass 環境の構築
+# 環境構築
 
-コーディング・管理が容易になるよう、Sass 環境（node-sass）を構築します。
+```
+yarn init
+mkdir public
+mkdir sass
+```
+
+```package.json
+...,
+  "scripts": {
+    "compile-sass": "node-sass scss/main.scss public/style.css -w"
+  },
+```
+
+````
 
 ## node のインストール
 
@@ -13,7 +26,7 @@
 
 ```bash
 yarn global add node-sass
-```
+````
 
 ## プロジェクトディレクトリの作成
 
@@ -31,7 +44,7 @@ yarn init
 ```package.json
 ...
   "scripts": {
-    "compile-sass": "node-sass scss/main.scss public/style.css -w"
+    "compile-sass": "node-sass --include-path sass sass/main.scss public/style.css -w"
   },
 ```
 
