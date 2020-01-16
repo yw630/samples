@@ -1,0 +1,9 @@
+{
+  "name": "Carousel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile-sass": "node-sass --include-path sass sass/main.scss public/style.css -w"
+  }
+}

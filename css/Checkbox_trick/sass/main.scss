@@ -1,0 +1,62 @@
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.cbtrick {
+  position: relative;
+  width: 30rem;
+  height: 20rem;
+  margin: 1rem;
+}
+
+.thumnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+
+  &__img {
+    width: 30rem;
+    height: 20rem;
+    object-fit: cover;
+  }
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200;
+
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.0);
+
+  animation: show .4s linear 0s;
+
+  &__img {
+    position: absolute;
+    top: 20vh;
+    left: 20vw;
+    width: 60vw;
+    height: 60vh;
+    object-fit: cover;
+  }
+}
+
+.cb {
+  display: none;
+
+  &:checked~.modal {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.8);
+    transform: scale(1);
+  }
+}

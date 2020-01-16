@@ -20,13 +20,13 @@ body {
 
   // .header--logo
   &--logo {
-    font-size: 8rem; // = 36px
+    font-size: 8rem; // = 80px
     margin-right: auto; // 右にあまりのスペースを配置
   }
 
   // .header--item
   &--item {
-    font-size: 2.4rem;
-    margin: 0 2rem;
+    font-size: 2.4rem; // = 24px
+    margin: 0 2rem; // 上下にはmarginなし、左右には2rem(=20px)のmargin
   }
 }

@@ -12,8 +12,8 @@ cd ~/
 git clone https://github.com/nvm-sh/nvm.git .nvm
 ```
 
-Mac では zsh が使われているようなので、以下の環境変数の設定は`.zshrc`に記述します。
-すでにファイルが有る場合は最下部に追記すれば問題ないです。
+Mac では zsh が使われているようなので、以下の環境変数の設定を`.zshrc`に記述します。
+すでにファイルが有る場合は最下部に追記します。
 
 ```.zshrc
 export NVM_DIR="$HOME/.nvm"
@@ -37,7 +37,7 @@ nvm install node
 
 ## create-react-app で react プロジェクトの作成
 
-react プロジェクトを構築でよく使われる create-react-app でプロジェクトを作成します。プロジェクト名は何でも構いませんが、ここでは`my-app`とします。
+create-react-app でプロジェクト名`my-app`としてプロジェクトを作成します。
 参照元： <https://ja.reactjs.org/docs/create-a-new-react-app.html>
 
 ```bash
@@ -46,7 +46,7 @@ npx create-react-app my-app
 
 ## react の開発用のビルドで起動
 
-デフォルトで作られるコードをそのまま開発用ビルドで起動します。
+デフォルトで作られたコードをそのまま開発用ビルドで起動します。
 
 ```bash
 cd my-app
