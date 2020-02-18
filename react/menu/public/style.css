@@ -1,0 +1,25 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box; }
+
+html {
+  font-size: 62.5%; }
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  font-size: 2rem;
+  margin: 2rem; }
+  .menu li {
+    list-style: none; }
+  .menu .menu__submenu {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: #ccc; }
+  .menu .menu__item {
+    background-color: #eee; }

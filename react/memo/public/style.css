@@ -1,0 +1,22 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.memo {
+  width: 80vw;
+  margin: 10rem auto;
+  background-color: lightblue;
+  font-size: 2rem;
+}
+
+.memo .memo__add {
+  padding: 1rem;
+}
